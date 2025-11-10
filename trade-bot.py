@@ -14,8 +14,8 @@ import hashlib
 
 # --- API Configuration ---
 BASE_URL = "https://mock-api.roostoo.com"
-API_KEY = "zGd1D0QcYsj2mE2sBRXrs57FMzSD9oTb4NPzZLcdQy8CwznCwMwfFAuWnJeBedkB"
-SECRET_KEY = "SWbNsyKzaTHXOsB60dhrQm5LK7CQ9c6ypUNZ36wj53mSRk3PeDwHTPJVGoDe65Um"
+API_KEY = "V4bN8mQwE6rT2yUiP9oA3sDdF1gJ5hKlZ7xC0vBnM2qW6eRtY4uI8oPaS1dF3gHj"
+SECRET_KEY = "xC7vBnM5qW3eRtY9uI1oPaS3dF5gHjK7lL9ZxCV1bN3mQwE5rT7yUiP9oA1s"
 
 
 # ------------------------------
