@@ -203,7 +203,7 @@ if __name__ == "__main__":
         time.sleep(5)
         ticker=get_ticker("ZEC/USD")
         p=ticker["Data"]["ZEC/USD"]["LastPrice"]
-        print(p)
+        print("\---nZEC price rn ---",p)
         if flag==0 and p <=660.5 :
             place_order("ZEC/USD","BUY", 75)
             flag=1
