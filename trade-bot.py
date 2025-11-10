@@ -210,6 +210,7 @@ def cancel_order(order_id=None, pair=None):
 # Quick Demo Section
 # ------------------------------
 if __name__ == "__main__":
+    print("START!")
     flag=0
     dt=0
     while True:
