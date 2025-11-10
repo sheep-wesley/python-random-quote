@@ -1,3 +1,11 @@
+"""
+Roostoo Mock Exchange Public API - Python Client
+------------------------------------------------
+This script demonstrates how to interact with the Roostoo Mock Exchange API.
+It supports both public and signed endpoints with HMAC SHA256 authentication.
+
+Base URL: https://mock-api.roostoo.com
+"""
 
 import requests
 import time
@@ -8,6 +16,11 @@ import hashlib
 BASE_URL = "https://mock-api.roostoo.com"
 API_KEY = "zGd1D0QcYsj2mE2sBRXrs57FMzSD9oTb4NPzZLcdQy8CwznCwMwfFAuWnJeBedkB"
 SECRET_KEY = "SWbNsyKzaTHXOsB60dhrQm5LK7CQ9c6ypUNZ36wj53mSRk3PeDwHTPJVGoDe65Um"
+
+
+# ------------------------------
+# Utility Functions
+# ------------------------------
 
 def _get_timestamp():
     """Return a 13-digit millisecond timestamp as string."""
@@ -203,7 +216,7 @@ if __name__ == "__main__":
         time.sleep(5)
         ticker=get_ticker("ZEC/USD")
         p=ticker["Data"]["ZEC/USD"]["LastPrice"]
-        print("\---nZEC price rn ---",p)
+        print("\n---ZEC Price NOW ---",p)
         if flag==0 and p <=660.5 :
             place_order("ZEC/USD","BUY", 75)
             flag=1
