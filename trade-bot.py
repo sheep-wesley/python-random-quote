@@ -201,8 +201,8 @@ def cancel_order(order_id=None, pair=None):
 # Quick Demo Section
 # ------------------------------
 if __name__ == "__main__":
-    print("START! (updated 3)")
-    flag=0
+    print("START! (updated 5)")
+    flag=1
     dt=0
     check=0
     while True:
@@ -212,12 +212,8 @@ if __name__ == "__main__":
         if (ticker and "Data" in ticker and "ZEC/USD" in ticker["Data"] and "LastPrice" in ticker["Data"]["ZEC/USD"]):
             p=ticker["Data"]["ZEC/USD"]["LastPrice"]
             print("\n---ZEC Price NOW ---",p)
-            if flag==0 and p <=550.5 :
-                place_order("ZEC/USD","BUY", 90)
-                flag=1
-                dt=1
-            if flag==1 and p>=600.5 :
-                place_order("ZEC/USD","SELL", 90)
+            if flag==1 and p>=690 :
+                place_order("ZEC/USD","SELL", 75)
                 flag=0
                 dt=1
                 check=1
