@@ -1,17 +1,4 @@
-# Let's Write a Python Quote Bot!
+# Strategy
 
-This repository will get you started with building a quote bot in Python. It's meant to be used along with the [Learning Lab](https://lab.github.com) intro to Python.
-
-When complete, you'll be able to grab random quotes from the command line, like this:
-
-> **$** python get-quote.py
-> 
-> Keep it logically awesome
-> 
-> **$** python get-quote.py
-> 
-> Speak like a human
-
-## Start the Tutorial
-
-You can find your next step in [this repo's issues](../../issues/)!
+Bought it under 660 and expected the growth with nearly 5% at 690 above. (using limit order)
+Once the trades are complete the bot will not trade anymore.
